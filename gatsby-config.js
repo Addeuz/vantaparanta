@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Vänta på Ränta",
+    title: 'Vänta på Ränta',
   },
-  plugins: ["gatsby-plugin-gatsby-cloud"],
-};
+  plugins: ['gatsby-plugin-gatsby-cloud', 'gatsby-plugin-typescript', 'gatsby-plugin-postcss'],
+}
