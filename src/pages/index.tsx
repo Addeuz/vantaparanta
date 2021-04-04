@@ -102,8 +102,7 @@ const IndexPage = () => (
             </a>
             {link.badge && (
               <span
-                className="text-white bg-green-600 border-green-600 text-xs font-bold tracking-wide rounded-md px-1 py-1 inline-block relative ml-2 leading-none"
-                style={{ top: -2 }}
+                className={`text-white bg-green-600 border-green-600 text-xs font-bold tracking-wide rounded-md px-1 py-1 inline-block relative ml-2 leading-none top-[-2px]`}
                 aria-label="New Badge"
               >
                 NEW!
