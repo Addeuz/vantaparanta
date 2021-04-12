@@ -4,16 +4,16 @@ module.exports = {
   },
   extends: `gristow`,
   rules: {
-    'no-console': 0,
+    'no-console': 1,
     'prettier/prettier': [
-      'error',
+      1,
       {
-        trailingComma: true,
+        trailingComma: 'all',
         singleQuote: true,
         printWidth: 120,
         tabWidth: 2,
-        semi: false,
+        semi: true,
       },
     ],
   },
-}
+};
