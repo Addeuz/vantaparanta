@@ -7,3 +7,7 @@ Currently, it's only able to run locally by:
 3. Running `npm start` to run the website locally
 4. Visit the site on `http://localhost:8000`
 
+Tech used:
+* TypeScript
+* GatsbyJS (React)
+* TailwindCSS
