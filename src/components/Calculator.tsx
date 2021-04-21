@@ -196,6 +196,7 @@ const InputRange = ({ value, setValue, input, setInput, min, max, step, title, f
           setValue(parseInt(event.target.value));
         }}
         onInput={(e: React.FormEvent<HTMLInputElement>) => {
+          // @ts-ignore
           const { style, min, max, value } = e.target;
           style.background = `linear-gradient(to right, #666 0%, #666 ${
             ((value - min) / (max - min)) * 105
